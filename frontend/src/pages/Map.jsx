@@ -44,7 +44,6 @@ const NearbyPetsMap = ({ userLocation, nearbyPets }) => {
   return (
     <div style={{ height: "400px", width: "100%" }}>
       <GoogleMapReact
-        // bootstrapURLKeys={{ key: "AIzaSyBx4f2VPFGSc40dtxhpzkvqRHx-FzT5hvk" }}
         defaultCenter={userLocation}
         defaultZoom={12}
         onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps)}
