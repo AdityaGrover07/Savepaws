@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+}
+
+.filterOptions {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(0, 128, 0, 0.214);
+}
+
+@media screen and (max-width: 900px) {
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .filterOptions {
+    width: 100%;
+
+    border: 1px solid rgba(0, 128, 0, 0.214);
+  }
+}

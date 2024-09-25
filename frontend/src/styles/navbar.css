@@ -1,0 +1,15 @@
+nav {
+  color: black;
+}
+
+nav button {
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-nav {
+    text-align: center;
+    color: black;
+    font-weight: 800;
+  }
+}

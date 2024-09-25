@@ -1,0 +1,9 @@
+#Overlay {
+  background-color: #fefae0;
+  width: auto;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  height: 100vh !important;
+  color: black;
+}

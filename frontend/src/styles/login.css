@@ -1,0 +1,34 @@
+#Login {
+  font-family: "Cormorant", serif;
+  background-color: antiquewhite;
+
+  color: black;
+  background-color: antiquewhite;
+}
+
+.btn {
+  cursor: pointer;
+  color: white;
+}
+
+.image-div {
+  width: 70%;
+  height: 100vh;
+}
+
+.content-div {
+  width: 30%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 900px) {
+  .content-div {
+    width: 90%;
+    height: 90vh;
+    margin-top: 2%;
+  }
+
+  .image-div {
+    display: none;
+  }
+}

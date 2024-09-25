@@ -1,0 +1,141 @@
+.Landing {
+  animation: animate 16s ease-in-out infinite;
+  background-size: cover;
+  color: white;
+  height: 80vh;
+  margin: 1%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: auto;
+}
+
+.content-cards {
+  position: relative;
+  height: 65vh;
+  margin-top: 2%;
+}
+
+.content-help {
+  position: relative;
+  height: 80vh;
+  margin: 5%;
+}
+
+.help-img {
+  width: 50%;
+  margin: 0%;
+  height: 80%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../public/assets/bg/dog4.png);
+}
+
+h1 {
+  font-size: 95px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+.flex {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+  /* background-color: var(--green); */
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    background-image: url(../../public/assets/bg/dog1.png);
+  }
+
+  25% {
+    background-image: url(../../public/assets/bg/dog2.png);
+  }
+
+  50% {
+    background-image: url(../../public/assets/bg/dog3.png);
+  }
+
+  75% {
+    background-image: url(../../public/assets/bg/dog4.png);
+  }
+}
+
+/* Banner CSS */
+
+.banner-div {
+  max-width: 55%;
+  position: absolute;
+  bottom: 30%;
+}
+
+.banner-btn {
+  border-radius: 30px;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .Landing {
+    background-position: center;
+    animation: animate 16s ease-in-out infinite;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .banner-div {
+    max-width: 90%;
+    position: absolute;
+  }
+
+  .content-cards {
+    position: relative;
+    height: auto;
+    margin-top: 5%;
+  }
+
+  .help-img,
+  .help-text {
+    width: 100%;
+  }
+
+  .content-help {
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  @keyframes animate {
+    0%,
+    100% {
+      background-image: url(../../public/assets/bg/dog4.png);
+    }
+
+    50% {
+      background-image: url(../../public/assets/bg/dog2.png);
+    }
+  }
+}

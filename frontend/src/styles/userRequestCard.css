@@ -1,0 +1,17 @@
+.userRequestCard {
+  width: auto;
+}
+
+.flex {
+  flex-direction: row;
+}
+
+.requestCard .img-div {
+  width: 300px;
+}
+
+@media screen and (max-width: 900px) {
+  .requestCard {
+    width: 100%;
+  }
+}
